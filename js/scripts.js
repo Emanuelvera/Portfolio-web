@@ -149,3 +149,4 @@ window.addEventListener("resize", () => {
 createStars();
 animate();
 setInterval(createShootingStar, 3000);
+

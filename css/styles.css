@@ -8267,7 +8267,7 @@ textarea.form-control-lg {
 
 .text-white-50 {
   --bs-text-opacity: 1;
-  color: rgba(0, 255, 255, 0.5) !important;
+  color: rgba(0, 255, 255, 0.9) !important;
 }
 
 .text-reset {
@@ -11259,4 +11259,23 @@ body {
 
 .footer {
   padding: 5rem 0;
+}
+
+
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 30px; /* Espacio entre el texto y la imagen */
+}
+
+.header-image {
+  flex-shrink: 0; /* Evita que la imagen se reduzca */
+}
+
+.profile-photo {
+  width: 300px; /* Ajusta el tamaño de la imagen */
+  height: 300px;
+  border-radius: 50%; /* Hace la imagen circular */
+  border: 3px solid rgba(0, 255, 255, 0.5); /* Borde blanco */
+  object-fit: cover; /* Asegura que la imagen se vea bien */
 }
