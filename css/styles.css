@@ -11171,7 +11171,12 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 50, 0.9) 75%, rgba(0, 0, 0, 0.7) 100%), url(/Portfolio-web/assets/img/Black_Hole_Full.png);
+  background-repeat: no-repeat; /* Evita repeticiones */
+  background-position: 110% 140%;
+;
+  overflow:hidden; 
+
 }
 
 .about-section p {
@@ -11202,7 +11207,7 @@ body {
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/bg-signup.jpg");
+  background: linear-gradient(to bottom, rgb(0 10 160 / 50%) 0%, rgba(0, 0, 0, 0.9) 75%, #000 100%), url("../assets/img/cosmic-dust.png") ;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
