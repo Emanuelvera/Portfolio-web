@@ -11284,3 +11284,38 @@ body {
   border: 3px solid rgba(0, 255, 255, 0.5); /* Borde blanco */
   object-fit: cover; /* Asegura que la imagen se vea bien */
 }
+/* Estilos personalizados para el encabezado */
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+/* Ajustes para imagen */
+.header-image img.profile-photo {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Responsive: cuando el ancho de la pantalla sea menor a 768px */
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header-image img.profile-photo {
+        width: 150px;
+        margin-top: 1rem;
+    }
+
+    .masthead h1 {
+        font-size: 1.8rem;
+    }
+
+    .masthead h2 {
+        font-size: 1.2rem;
+    }
+}
